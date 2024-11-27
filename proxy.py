@@ -32,4 +32,4 @@ def start_proxy(a, typs):
 if __name__ == '__main__':
     a = input("save as : ")
     typs = input("Proxy Type[http / socks4/ socks5]: ")
-    start_proxy(a. typs)
+    start_proxy(a, typs)
