@@ -10,14 +10,6 @@ elif os.name == 'nt':
 def start_proxy(a, typs):
     while True:
         try:
-            ip_list = open('ProxyGood.txt', 'r')
-            ips = ip_list.readlines()
-            ip_list.close()
-            proxzy = ips
-            proksi = {
-                'http': 'http://'+str(random.choice(list(proxzy))),
-                'https': 'http://'+str(random.choice(list(proxzy)))
-            }
             headers = {
                 "User-Agent": random.choice(user_agents)
             }
